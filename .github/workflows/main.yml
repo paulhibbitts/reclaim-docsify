@@ -11,6 +11,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: ftp://ftp.samkirkland.com/
-        ftp-username: myFtpUserName
+        ftp-server: ftp://ftp.paulhibbitts.net/public_html/hibbittsdesign.org/test/docsify
+        ftp-username: paulhibbitts
         ftp-password: ${{ secrets.FTP_PASSWORD }}
